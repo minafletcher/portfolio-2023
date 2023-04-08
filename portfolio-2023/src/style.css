@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&family=Rubik:wght@300;400;500;600&display=swap");
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-barlow {
+  font-family: "Barlow", sans-serif;
+}
+
+@layer base {
+    .mobile-heading1 {
+        @apply text-48 leading-tight font-medium font-rubik;
+    }
+
+    .mobile-heading2 {
+        @apply text-40 
+    }
+
+    .mobile-heading3 {
+        @apply text-18 leading-snug font-medium font-rubik 
+    }
+
+    .mobile-heading4 {
+        @apply text-14 leading-snug font-medium font-rubik
+    }
+
+    .mobile-body {
+        @apply text-14 font-barlow leading-18;
+    }
+
+    .tablet-heading1 {
+        @apply text-72 font-medium font-rubik;
+    }
+
+    .tablet-heading2 {
+        @apply text-36 font-medium font-rubik;
+    }
+
+    .tablet-body {
+        @apply text-16 font-barlow leading-20;
+    }
+
+    .heading1 {
+        @apply text-100 leading-tight font-medium font-rubik;
+    }
+    .heading2 {
+        @apply text-36 leading-snug font-medium font-rubik;
+    }
+    .heading3 {
+        @apply text-20 leading-snug font-medium font-rubik;
+    }
+
+    .heading2-5 {
+        @apply text-24 font-medium font-rubik;
+    }
+
+    .body {
+        @apply text-18 font-barlow leading-24;
+    }
+
+    .sub-body {
+        @apply text-16 font-barlow leading-20;
+    }
+
+    .project-grid {
+        @apply grid mobile:grid-cols-1 tablet:grid-cols-2 gap-8;
+    }
+}
+
+
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #FFFDF6;
+}
+
+/* Project Tabs */
+.tabLine {
+    width: 1px;
+    height: 1.5rem;
+    border-radius: 10px;  
+}
+
+.tab {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+}
+
+/* Hamburger Menu */
+.HAMBURGER-ICON {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.hamburger-line {
+    width: 2rem;
+    height: 0.25rem;
+    background: #353532;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+
+.dropdownHover {
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+.dropdownHover:hover {
+    transform: scale(101%);
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-10%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    }
+
+.custom-bounce {
+    animation: bounce 1.2s infinite;
+}
