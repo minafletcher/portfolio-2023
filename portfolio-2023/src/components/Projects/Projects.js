@@ -39,7 +39,7 @@ export default function ProjectTabs() {
   return (
     <motion.div
       id="work"
-      className="PROJECT-ANCHOR laptop:mt-16 mobile:mt-4"
+      className="PROJECT-ANCHOR laptop:mt-16"
       ref={ref}
       animate={control}
       variants={contentVariant}

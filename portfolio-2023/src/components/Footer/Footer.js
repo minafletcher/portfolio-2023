@@ -27,7 +27,7 @@ export default function Footer() {
   return (
     <motion.div
       id="contact"
-      className="FOOTER-CONTAINER relative flex flex-col gap-20 mt-48 bg-red laptop:px-20 tablet:px-10 mobile:px-4 py-8"
+      className="FOOTER-CONTAINER relative flex flex-col gap-20 laptop:mt-48 mobile:mt-32 bg-red laptop:px-20 tablet:px-10 mobile:px-4 py-8"
       ref={ref}
       animate={control}
       variants={contentVariant}

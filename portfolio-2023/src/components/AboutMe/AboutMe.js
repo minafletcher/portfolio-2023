@@ -33,7 +33,7 @@ export default function AboutMe() {
   return (
     <motion.div
       id="about"
-      className="flex flex-row items-center laptop:mt-16 mobile:mt-4"
+      className="flex flex-row items-center laptop:mt-16"
       ref={ref}
       animate={control}
       variants={contentVariant}

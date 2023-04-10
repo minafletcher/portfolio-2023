@@ -26,7 +26,7 @@ export default function TalkToMe() {
 
   return (
     <motion.div
-      className="TALKTOME-CONTAINER relative flex flex-col laptop:mt-60 mobile:mt-48 laptop:mx-20 tablet:mx-10"
+      className="TALKTOME-CONTAINER relative flex flex-col laptop:mt-60 mobile:mt-44 laptop:mx-20 tablet:mx-10"
       ref={ref}
       animate={control}
       variants={contentVariant}
