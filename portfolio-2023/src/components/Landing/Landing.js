@@ -39,7 +39,7 @@ export default function Landing() {
       className="LANDING-CONTAINER relative flex laptop:flex-row-reverse mobile:flex-col justify-center -mt-16"
     >
       <motion.div
-        className="LANDING-TEXT tablet:mt-40 mobile:mt-24 mx-4"
+        className="LANDING-TEXT tablet:mt-40 mobile:mt-32 mx-4"
         ref={ref}
         animate={control}
         variants={textVariant}
@@ -61,7 +61,7 @@ export default function Landing() {
         initial="hidden"
       >
         <img
-          className="LANDING-IMAGE laptop:mt-40 mobile:mt-20 laptop:w-96 mobile:w-8/12"
+          className="LANDING-IMAGE laptop:mt-40 mobile:mt-14 laptop:w-96 tablet:w-6/12 mobile:w-8/12"
           src={content.landing.img}
           alt={content.landing.imgAlt}
         ></img>
@@ -69,7 +69,7 @@ export default function Landing() {
 
       <HashLink smooth to="/#work">
         <motion.img
-          className="SCROLL-ARROW absolute shrink-0 custom-bounce tablet:w-8 mobile:w-6 right-0 laptop:bottom-4 mobile:-bottom-20"
+          className="SCROLL-ARROW absolute shrink-0 custom-bounce tablet:w-8 mobile:w-6 right-0 laptop:bottom-4 mobile:-bottom-16"
           src={content.landing.arrowImg}
           alt={content.landing.arrowAlt}
           ref={ref}
