@@ -39,13 +39,13 @@ export default function ProjectTabs() {
   return (
     <motion.div
       id="work"
-      className="PROJECT-ANCHOR laptop:mt-16 mobile:mt-24"
+      className="PROJECT-ANCHOR laptop:mt-16 mobile:mt-4"
       ref={ref}
       animate={control}
       variants={contentVariant}
       initial="hidden"
     >
-        <div className="PROJECT-CONTAINER relative flex flex-col justify-between laptop:mt-40 mobile:mt-24 laptop:mx-20 tablet:mx-10">
+        <div className="PROJECT-CONTAINER relative flex flex-col justify-between laptop:mt-40 mobile:mt-44 laptop:mx-20 tablet:mx-10">
           <motion.div
             className="PROJECT-DOTS absolute -z-10 tablet:flex w-full justify-end mobile:hidden"
             ref={ref}

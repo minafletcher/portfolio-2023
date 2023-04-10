@@ -69,7 +69,7 @@ export default function Landing() {
 
       <HashLink smooth to="/#work">
         <motion.img
-          className="SCROLL-ARROW absolute shrink-0 custom-bounce laptop:w-8 mobile:w-6 right-0 bottom-4"
+          className="SCROLL-ARROW absolute shrink-0 custom-bounce laptop:w-8 mobile:w-6 right-0 laptop:bottom-4 mobile:-bottom-20"
           src={content.landing.arrowImg}
           alt={content.landing.arrowAlt}
           ref={ref}
