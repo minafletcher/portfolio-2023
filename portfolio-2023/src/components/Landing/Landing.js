@@ -38,7 +38,7 @@ export default function Landing() {
       id="landing"
       className="LANDING-ANCHOR -mt-16"
     >
-      <div className="LANDING-CONTAINER relative flex laptop:flex-row-reverse mobile:flex-col justify-center laptop:mt-4">
+      <div className="LANDING-CONTAINER relative flex laptop:flex-row-reverse mobile:flex-col justify-center laptop:mt-6">
         <motion.div
           className="LANDING-TEXT tablet:mt-40 mobile:mt-32 mx-4"
           ref={ref}
