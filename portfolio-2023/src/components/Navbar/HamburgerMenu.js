@@ -1,4 +1,4 @@
-import RecordIcon from "../../img/record-icon.svg";
+//import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
 import { HashLink } from "react-router-hash-link";
 import content from "../../content/content";
 
@@ -13,7 +13,10 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
         {content.navbar.home}
       </HashLink>
       <div className="flex items-center">
-        <img className="h-6.5 w-6.5 pr-12" src={RecordIcon} alt="Record icon" />
+      {/* RECORD PLAYING CODE
+      <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
+            <RecordIcon className="w-6.5 h-6.5 fill-black hover:fill-red transition-all duration-200 cursor-pointer"/>
+          </div> */}
 
         <div
           className="HAMBURGER-ICON tablet:right-10 mobile:right-4"

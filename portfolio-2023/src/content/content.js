@@ -1,6 +1,9 @@
 // ---- Page Image Imports ---- //
 import DotGrid from './img/dot-grid-1.svg'
 
+// ---- NavBar Imports ---- //
+import RecordSong from '../content/whats_a_girl_to_do.mp3';
+
 // ---- Landing Image Imports ---- //
 import BounceArrow from './img/bounce-arrow.svg';
 import Circle from './img/half-circle.svg';
@@ -78,6 +81,7 @@ const content = {
         about: "About",
         contact: "Contact",
         experience: "Experience",
+        recordSong: RecordSong
     },
 
     // ---- Landing ---- //
