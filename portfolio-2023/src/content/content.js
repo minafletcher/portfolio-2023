@@ -1,66 +1,66 @@
 // ---- Page Image Imports ---- //
-import DotGrid from '../img/dot-grid-1.svg'
+import DotGrid from './img/dot-grid-1.svg'
 
 // ---- Landing Image Imports ---- //
-import BounceArrow from '../img/bounce-arrow.svg';
-import Circle from '../img/half-circle.svg';
-import BlackBorder from '../img/black-border.svg';
-import LandingShapes from '../img/landing-shapes.svg';
+import BounceArrow from './img/bounce-arrow.svg';
+import Circle from './img/half-circle.svg';
+import BlackBorder from './img/black-border.svg';
+import LandingShapes from './img/landing-shapes.svg';
 
 // ---- Project Image Imports ---- //
-import GGThumbnail from '../img/gg-mockup-final-min.png';
-import intThumbnail from '../img/interventions-ipad-mockup-min.jpg';
-import cgpThumbnail from '../img/cgp-income-estimator-mockup-min.jpg';
-import therThumbnail from '../img/therapro-ipad-mockup-v2-min.jpg';
-import benThumbnail from '../img/benvenuti-mobile-mockup-final-min.png';
-import ckThumbnail from '../img/cleankick-mockup-min.jpg';
-import slantedThumbnail from '../img/slanted-thumbnail-min.png';
-import ghostThumbnail from '../img/ghost-thumbnail-min.png';
-import spaceThumbnail from '../img/satellites-thumbnail-min.png';
-import logoThumbnail from '../img/logo-thumbnail-min.png';
-import cgpLogoThumbnail from '../img/loading_screen_final-min.png';
-import clayThumbnail from '../img/stop-motion-thumbnail-min.png';
-import flourThumbnail from '../img/floursack-thumbnail-min.png';
-import switchThumbnail from '../img/makeTheSwitch_mockups-min.jpg';
-import nyThumbnail from '../img/ny_underground_infographic_mockup-min.jpg';
-import bookThumbnail from '../img/fonts_book_mockup_rug-min.jpg';
-import energyThumbnail from '../img/energy_poster_mockup-min.jpg';
+import GGThumbnail from './img/gg-mockup-final-min.png';
+import intThumbnail from './img/interventions-ipad-mockup-min.jpg';
+import cgpThumbnail from './img/cgp-income-estimator-mockup-min.jpg';
+import therThumbnail from './img/therapro-ipad-mockup-v2-min.jpg';
+import benThumbnail from './img/benvenuti-mobile-mockup-final-min.png';
+import ckThumbnail from './img/cleankick-mockup-min.jpg';
+import slantedThumbnail from './img/slanted-thumbnail-min.png';
+import ghostThumbnail from './img/ghost-thumbnail-min.png';
+import spaceThumbnail from './img/satellites-thumbnail-min.png';
+import logoThumbnail from './img/logo-thumbnail-min.png';
+import cgpLogoThumbnail from './img/loading_screen_final-min.png';
+import clayThumbnail from './img/stop-motion-thumbnail-min.png';
+import flourThumbnail from './img/floursack-thumbnail-min.png';
+import switchThumbnail from './img/makeTheSwitch_mockups-min.jpg';
+import nyThumbnail from './img/ny_underground_infographic_mockup-min.jpg';
+import bookThumbnail from './img/fonts_book_mockup_rug-min.jpg';
+import energyThumbnail from './img/energy_poster_mockup-min.jpg';
 
 // ---- About Me Image Import ---- //
-import HeadshotGif from '../img/mina-headshot-small.gif'
+import HeadshotGif from './img/mina-headshot-small.gif'
 
 // ---- Contact Links Image Import ---- //
-import LinkedInLogo from '../img/linked-in-icon.svg';
-import GithubLogo from '../img/github-icon.svg';
-import BehanceLogo from '../img/behance-icon.svg';
-import MailLogo from '../img/mail-icon.svg';
+import LinkedInLogo from './img/linked-in-icon.svg';
+import GithubLogo from './img/github-icon.svg';
+import BehanceLogo from './img/behance-icon.svg';
+import MailLogo from './img/mail-icon.svg';
 
 // ---- Experience Image Import ---- //
-import OpenIcon from '../img/open-icon.svg';
-import CloseIcon from '../img/close-icon.svg';
-import ExternalLink from '../img/external-link-icon.svg'
+import OpenIcon from './img/open-icon.svg';
+import CloseIcon from './img/close-icon.svg';
+import ExternalLink from './img/external-link-icon.svg'
 
 // ---- Skills Image Import ---- //
 // ---- Skills Web Development ---- //
-import ReactIcon from '../img/react-icon.svg';
-import JS_TS_Icon from '../img/js-ts-icon.svg';
-import HTMLIcon from '../img/html-icon.svg';
-import CSS_SASS_Icon from '../img/css-sass-icon.svg';
-import AngularIcon from '../img/angular-icon.svg';
-import GitIcon from '../img/git-icon.svg';
-import GatsbyIcon from '../img/gatsby-icon.svg';
-import SquarespaceIcon from '../img/squarespace-icon.svg';
+import ReactIcon from './img/react-icon.svg';
+import JS_TS_Icon from './img/js-ts-icon.svg';
+import HTMLIcon from './img/html-icon.svg';
+import CSS_SASS_Icon from './img/css-sass-icon.svg';
+import AngularIcon from './img/angular-icon.svg';
+import GitIcon from './img/git-icon.svg';
+import GatsbyIcon from './img/gatsby-icon.svg';
+import SquarespaceIcon from './img/squarespace-icon.svg';
 // ---- Skills Computer Graphics ---- //
-import ThreeJsIcon from '../img/threejs-icon.svg';
-import CPlusIcon from '../img/cplus-icon.svg';
-import MayaIcon from '../img/maya-icon.svg';
-import BlenderIcon from '../img/blender-icon.svg';
+import ThreeJsIcon from './img/threejs-icon.svg';
+import CPlusIcon from './img/cplus-icon.svg';
+import MayaIcon from './img/maya-icon.svg';
+import BlenderIcon from './img/blender-icon.svg';
 // ---- Skills Design ---- //
-import FigmaIcon from '../img/figma-icon.svg';
-import AfterEffectsIcon from '../img/after-effects-icon.svg';
-import IllustratorIcon from '../img/illustrator-icon.svg';
-import InDesignIcon from '../img/indesign-icon.svg';
-import PhotoshopIcon from '../img/photoshop-icon.svg';
+import FigmaIcon from './img/figma-icon.svg';
+import AfterEffectsIcon from './img/after-effects-icon.svg';
+import IllustratorIcon from './img/illustrator-icon.svg';
+import InDesignIcon from './img/indesign-icon.svg';
+import PhotoshopIcon from './img/photoshop-icon.svg';
 
 
 

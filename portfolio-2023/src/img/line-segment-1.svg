@@ -1,8 +1,0 @@
-<svg width="48" height="630" viewBox="0 0 48 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15 612C30 612 31 614 31 594" stroke="#353532" stroke-width="6"/>
-<path d="M0 598C15 598 16 600 16 580" stroke="#353532" stroke-width="6"/>
-<path d="M29 626C44 626 45 628 45 608" stroke="#353532" stroke-width="6"/>
-<line x1="31" y1="-1.31134e-07" x2="31" y2="596" stroke="#353532" stroke-width="6"/>
-<line x1="16" y1="-1.31134e-07" x2="16" y2="580" stroke="#353532" stroke-width="6"/>
-<line x1="45" y1="1.31134e-07" x2="45" y2="615" stroke="#353532" stroke-width="6"/>
-</svg>
