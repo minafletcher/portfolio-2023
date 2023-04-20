@@ -18,8 +18,8 @@ export default function ProjectCard({
           <img
             className={
               aspectRatio
-                ? "aspect-video object-cover hover:scale-110 transition-all duration-300"
-                : "aspect-square object-cover hover:scale-110 transition-all duration-300"
+                ? "aspect-video w-fit object-cover hover:scale-110 transition-all duration-300"
+                : "aspect-square w-fit object-cover hover:scale-110 transition-all duration-300"
             }
             src={imgUrl}
             alt={imgAlt}
