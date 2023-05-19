@@ -1,17 +1,16 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
-import { HashLink } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import content from "../../content/content";
 
 export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
   return (
     <div className="HAMBURGER-CONTAINER flex flex-row justify-between border-b-2 tablet:px-10 mobile:px-4 py-4">
-      <HashLink
+      <Link
         className="text-2xl text-black font-medium font-rubik"
-        smooth
         to="/#landing"
       >
         {content.navbar.home}
-      </HashLink>
+      </Link>
       <div className="flex items-center">
       {/* RECORD PLAYING CODE
       <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
@@ -30,40 +29,36 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
         <div className="showMenuNav">
           <ul className="MENU-LINKS flex flex-col gap-8 items-end justify-between min-h-[250px] tablet:mr-4 mobile:mr-0 uppercase text-48 text-black font-medium font-rubik">
             <li className="hover:italic">
-              <HashLink
+              <Link
                 onClick={() => setIsNavOpen((prev) => !prev)}
-                smooth
                 to="/#work"
               >
                 {content.navbar.work}
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:italic">
-              <HashLink
+              <Link
                 onClick={() => setIsNavOpen((prev) => !prev)}
-                smooth
                 to="/#about"
               >
                 {content.navbar.about}
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:italic">
-              <HashLink
+              <Link
                 onClick={() => setIsNavOpen((prev) => !prev)}
-                smooth
                 to="/#experience"
               >
                 {content.navbar.experience}
-              </HashLink>
+              </Link>
             </li>
             <li className="hover:italic">
-              <HashLink
+              <Link
                 onClick={() => setIsNavOpen((prev) => !prev)}
-                smooth
                 to="/#contact"
               >
                 {content.navbar.contact}
-              </HashLink>
+              </Link>
             </li>
           </ul>
         </div>
