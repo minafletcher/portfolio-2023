@@ -7,11 +7,10 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function TalkToMe() {
-
   // animate in functionality
   // slide up on scroll
   const contentVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
 

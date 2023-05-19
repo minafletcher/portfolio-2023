@@ -10,14 +10,14 @@ export default function Skills() {
   // animate in functionality
   // slide up on scroll
   const contentVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
 
   // animate in functionality
   // slide up on scroll
   const dotsVariant = {
-    visible: { opacity: 1, x: 0, transition: { delay: 0.5, duration: 0.7 } },
+    visible: { opacity: 1, x: 0, transition: { delay: 0.25, duration: 0.7 } },
     hidden: { opacity: 0, x: -100 },
   };
 
@@ -50,11 +50,13 @@ export default function Skills() {
         })}
       </div>
 
-      <motion.div className="TALK-DOTS absolute -z-10 flex w-full h-full"
-      ref={ref}
-      animate={control}
-      variants={dotsVariant}
-      initial="hidden">
+      <motion.div
+        className="TALK-DOTS absolute -z-10 flex w-full h-full"
+        ref={ref}
+        animate={control}
+        variants={dotsVariant}
+        initial="hidden"
+      >
         <img
           className="mobile:w-40 tablet:w-80 laptop:-ml-48 mobile:-ml-20 -mb-96 mt-36"
           src={content.page.dotUrl}

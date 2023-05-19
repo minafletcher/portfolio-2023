@@ -1,5 +1,5 @@
 import content from "../../content/content";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // animation functionality
 import { motion, useAnimation } from "framer-motion";
@@ -7,11 +7,10 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Footer() {
-
-    // animate in functionality
+  // animate in functionality
   // slide down on page load
   const contentVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0, duration: 0.5 } },
     hidden: { opacity: 0, y: 35 },
   };
 

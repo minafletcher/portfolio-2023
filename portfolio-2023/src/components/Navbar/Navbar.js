@@ -18,7 +18,7 @@ export default function Navbar() {
   // animate in functionality
   // slide down on page load
   const contentVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: -35 },
   };
 
@@ -41,10 +41,7 @@ export default function Navbar() {
     >
       <div className="NAVBAR-CONTAINER bg-white opacity-90">
         <div className="laptop:hidden mobile:block">
-          <HamburgerMenu
-            isNavOpen={isNavOpen}
-            setIsNavOpen={setIsNavOpen}
-          />
+          <HamburgerMenu isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} />
         </div>
 
         <div className="mobile:hidden laptop:flex justify-between flex-row border-grey border-b mx-20 py-3.5 items-center">

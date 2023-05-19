@@ -10,17 +10,17 @@ export default function Landing() {
   // animate in functionality
   // slide up on scroll
   const textVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
 
   const imgVariant = {
-    visible: { opacity: 1, x: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, x: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, x: -50 },
   };
 
   const scrollVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 1, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: -50 },
   };
 
@@ -34,10 +34,7 @@ export default function Landing() {
   }, [control, inView]);
 
   return (
-    <div
-      id="landing"
-      className="LANDING-ANCHOR -mt-16"
-    >
+    <div id="landing" className="LANDING-ANCHOR -mt-16">
       <div className="LANDING-CONTAINER relative flex laptop:flex-row-reverse mobile:flex-col justify-center laptop:mt-6">
         <motion.div
           className="LANDING-TEXT tablet:mt-40 mobile:mt-32 mx-4"

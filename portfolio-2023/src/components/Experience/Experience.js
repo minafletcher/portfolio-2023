@@ -8,18 +8,17 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Experience() {
-
   // animate in functionality
   // slide up on scroll
   const contentVariant = {
-    visible: { opacity: 1, y: 0, transition: { delay: 0.5, duration: 0.5 } },
+    visible: { opacity: 1, y: 0, transition: { delay: 0.25, duration: 0.5 } },
     hidden: { opacity: 0, y: 100 },
   };
 
   // animate in functionality
   // slide up on scroll
   const dotsVariant = {
-    visible: { opacity: 1, x: 0, transition: { delay: 0.5, duration: 0.7 } },
+    visible: { opacity: 1, x: 0, transition: { delay: 0.25, duration: 0.7 } },
     hidden: { opacity: 0, x: 100 },
   };
 
