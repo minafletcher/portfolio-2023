@@ -65,7 +65,7 @@ export default function ProjectPage({ project }) {
             <div className="DESCRIPTION laptop:body tablet:tablet-body mobile:mobile-body text-black max-w-lg">
               {project.description}
             </div>
-            <div className="TAGS flex flex-row gap-3">
+            <div className="TAGS flex flex-row mobile:gap-2 tablet:gap-3">
               {project.tags.map((tag) => {
                 return <Tag key={tag.key} size={1} content={tag.tag} />;
               })}
