@@ -54,7 +54,7 @@ export default function AboutMe() {
           ></img>
         </motion.div>
 
-        <div className="ABOUT-ME-HEADER-MOBILE flex w-full justify-end mr-14 mb-14 text-black laptop:hidden mobile:heading3 tablet:tablet-heading2">
+        <div className="ABOUT-ME-HEADER-MOBILE flex w-full justify-end mb-14 text-black laptop:hidden mobile:heading3 tablet:tablet-heading2">
           {content.aboutMe.header}
         </div>
 
@@ -65,7 +65,7 @@ export default function AboutMe() {
             alt={content.aboutMe.imgAlt}
           ></img>
 
-          <div className="ABOUT-ME-TEXT flex flex-col tablet:pl-10 mobile:mr-14 laptop:mr-10 mobile:pb-8">
+          <div className="ABOUT-ME-TEXT flex flex-col laptop:pl-10 laptop:mr-10 mobile:pb-8">
             <div className="ABOUT-ME-HEADER-LAPTOP text-black laptop:block laptop:heading2 mobile:hidden">
               {content.aboutMe.header}
             </div>
