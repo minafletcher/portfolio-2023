@@ -28,33 +28,29 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
 
         <div className="showMenuNav">
           <ul className="MENU-LINKS flex flex-col gap-8 items-end justify-between min-h-[250px] tablet:mr-4 mobile:mr-0 uppercase text-48 text-black font-medium font-rubik">
-            <li className="hover:italic">
+            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
               <Link
-                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#work"
               >
                 {content.navbar.work}
               </Link>
             </li>
-            <li className="hover:italic">
+            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
               <Link
-                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#about"
               >
                 {content.navbar.about}
               </Link>
             </li>
-            <li className="hover:italic">
+            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
               <Link
-                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#experience"
               >
                 {content.navbar.experience}
               </Link>
             </li>
-            <li className="hover:italic">
+            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
               <Link
-                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#contact"
               >
                 {content.navbar.contact}
