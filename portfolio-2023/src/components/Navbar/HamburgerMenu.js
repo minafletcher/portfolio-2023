@@ -1,5 +1,4 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
-//import { HashLink as Link } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import content from "../../content/content";
 
@@ -13,7 +12,7 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
         {content.navbar.home}
       </Link>
       <div className="flex items-center">
-      {/* RECORD PLAYING CODE
+        {/* RECORD PLAYING CODE
       <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
             <RecordIcon className="w-6.5 h-6.5 fill-black hover:fill-red transition-all duration-200 cursor-pointer"/>
           </div> */}
@@ -29,29 +28,27 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
 
         <div className="showMenuNav">
           <ul className="MENU-LINKS flex flex-col gap-8 items-end justify-between min-h-[250px] tablet:mr-4 mobile:mr-0 uppercase text-48 text-black font-medium font-rubik">
-            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
-              <Link
-                to="/#work"
-              >
+            <li className="hover:italic">
+              <Link onClick={() => setIsNavOpen((prev) => !prev)} to="/#work">
                 {content.navbar.work}
               </Link>
             </li>
-            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
-              <Link
-                to="/#about"
-              >
+            <li className="hover:italic">
+              <Link onClick={() => setIsNavOpen((prev) => !prev)} to="/#about">
                 {content.navbar.about}
               </Link>
             </li>
-            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
+            <li className="hover:italic">
               <Link
+                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#experience"
               >
                 {content.navbar.experience}
               </Link>
             </li>
-            <li className="hover:italic" onClick={() => setIsNavOpen((prev) => !prev)}>
+            <li className="hover:italic">
               <Link
+                onClick={() => setIsNavOpen((prev) => !prev)}
                 to="/#contact"
               >
                 {content.navbar.contact}

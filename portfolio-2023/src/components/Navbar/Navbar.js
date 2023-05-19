@@ -6,7 +6,6 @@ import HamburgerMenu from "./HamburgerMenu";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-//import { HashLink } from "react-router-hash-link";
 
 // animation functionality
 import { motion, useAnimation } from "framer-motion";

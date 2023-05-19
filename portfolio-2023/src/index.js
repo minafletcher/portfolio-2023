@@ -5,7 +5,10 @@ import Portfolio from "./Portfolio.js";
 import "./style.css";
 import Navbar from "./components/Navbar/Navbar.js";
 
-import ScrollToTop from "./scrollToTop.js";
+// helper components
+import ScrollToTop from "./helpers/scrollToTop.js";
+import ScrollToHashElement from "./helpers/scrollToHashElement.js";
+
 import {
   GlobalEnergy,
   NYUnderground,
@@ -24,7 +27,6 @@ import {
   Interventions,
   GoGarden,
 } from "./project-pages/projectPages.js";
-import ScrollToHashElement from "./scrollToHashElement.js";
 
 const root = createRoot(document.querySelector("#root"));
 
