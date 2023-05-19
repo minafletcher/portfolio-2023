@@ -24,6 +24,7 @@ import {
   Interventions,
   GoGarden,
 } from "./project-pages/projectPages.js";
+import ScrollToHashElement from "./scrollToHashElement.js";
 
 const root = createRoot(document.querySelector("#root"));
 
@@ -31,6 +32,7 @@ root.render(
   <>
     <Router>
       <ScrollToTop />
+      <ScrollToHashElement />
 
       <Navbar />
       <Routes>

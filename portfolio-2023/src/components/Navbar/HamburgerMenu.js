@@ -1,5 +1,6 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
-import { HashLink as Link } from "react-router-hash-link";
+//import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import content from "../../content/content";
 
 export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {

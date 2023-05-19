@@ -5,7 +5,8 @@
 import HamburgerMenu from "./HamburgerMenu";
 import content from "../../content/content";
 import { useState, useEffect } from "react";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+//import { HashLink } from "react-router-hash-link";
 
 // animation functionality
 import { motion, useAnimation } from "framer-motion";
@@ -46,42 +47,42 @@ export default function Navbar() {
 
         <div className="mobile:hidden laptop:flex justify-between flex-row border-grey border-b mx-20 py-3.5 items-center">
           <div className="flex flex-row w-full justify-between">
-            <HashLink
+            <Link
               className="text-2xl text-black font-medium font-rubik hover:text-red transition-all duration-200"
               smooth
               to="/#landing"
             >
               {content.navbar.home}
-            </HashLink>
+            </Link>
             <div className="flex flex-row gap-6 items-center text-base text-black font-barlow">
-              <HashLink
+              <Link
                 className="hover:text-red transition-all duration-200"
                 smooth
                 to="/#work"
               >
                 {content.navbar.work}
-              </HashLink>
-              <HashLink
+              </Link>
+              <Link
                 className="hover:text-red transition-all duration-200"
                 smooth
                 to="/#about"
               >
                 {content.navbar.about}
-              </HashLink>
-              <HashLink
+              </Link>
+              <Link
                 className="hover:text-red transition-all duration-200"
                 smooth
                 to="/#experience"
               >
                 {content.navbar.experience}
-              </HashLink>
-              <HashLink
+              </Link>
+              <Link
                 className="hover:text-red transition-all duration-200"
                 smooth
                 to="/#contact"
               >
                 {content.navbar.contact}
-              </HashLink>
+              </Link>
             </div>
           </div>
 
