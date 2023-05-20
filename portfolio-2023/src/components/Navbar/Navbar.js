@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="flex flex-row w-full justify-between">
             <Link
               className="text-2xl text-black font-medium font-rubik hover:text-red transition-all duration-200"
-              smooth
+              
               to="/#landing"
             >
               {content.navbar.home}
@@ -56,28 +56,28 @@ export default function Navbar() {
             <div className="flex flex-row gap-6 items-center text-base text-black font-barlow">
               <Link
                 className="hover:text-red transition-all duration-200"
-                smooth
+                
                 to="/#work"
               >
                 {content.navbar.work}
               </Link>
               <Link
                 className="hover:text-red transition-all duration-200"
-                smooth
+                
                 to="/#about"
               >
                 {content.navbar.about}
               </Link>
               <Link
                 className="hover:text-red transition-all duration-200"
-                smooth
+                
                 to="/#experience"
               >
                 {content.navbar.experience}
               </Link>
               <Link
                 className="hover:text-red transition-all duration-200"
-                smooth
+                
                 to="/#contact"
               >
                 {content.navbar.contact}
