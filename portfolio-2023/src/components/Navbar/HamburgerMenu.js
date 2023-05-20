@@ -1,16 +1,18 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
 import { Link } from "react-router-dom";
+import { HashLink } from "react-smooth-hash-link";
 import content from "../../content/content";
 
 export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
   return (
     <div className="HAMBURGER-CONTAINER flex flex-row justify-between border-b-2 tablet:px-10 mobile:px-4 py-4">
-      <Link
+      <HashLink
         className="text-2xl text-black font-medium font-rubik"
         to="/#landing"
+        menu={content.navbar.home}
       >
         {content.navbar.home}
-      </Link>
+      </HashLink>
       <div className="flex items-center">
         {/* RECORD PLAYING CODE
       <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
@@ -32,25 +34,25 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <Link to="/#work">{content.navbar.work}</Link>
+              <HashLink to="/#work" menu={content.navbar.work}></HashLink>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <Link to="/#about">{content.navbar.about}</Link>
+              <HashLink to="/#about" menu={content.navbar.about}>{content.navbar.about}</HashLink>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <Link to="/#experience">{content.navbar.experience}</Link>
+              <HashLink to="/#experience" menu={content.navbar.experience}>{content.navbar.experience}</HashLink>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <Link to="/#contact">{content.navbar.contact}</Link>
+              <HashLink to="/#contact" menu={content.navbar.contact}>{content.navbar.contact}</HashLink>
             </li>
           </ul>
         </div>
