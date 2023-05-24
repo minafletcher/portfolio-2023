@@ -1,18 +1,19 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
-import { Link } from "react-router-dom";
-import { HashLink } from "react-smooth-hash-link";
 import content from "../../content/content";
 
-export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
+export default function HamburgerMenu({
+  isNavOpen,
+  setIsNavOpen,
+  scrollClick,
+}) {
   return (
     <div className="HAMBURGER-CONTAINER flex flex-row justify-between border-b-2 tablet:px-10 mobile:px-4 py-4">
-      <HashLink
+      <button
         className="text-2xl text-black font-medium font-rubik"
-        to="/#landing"
-        menu={content.navbar.home}
+        onClick={() => scrollClick("landing")}
       >
         {content.navbar.home}
-      </HashLink>
+      </button>
       <div className="flex items-center">
         {/* RECORD PLAYING CODE
       <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
@@ -29,30 +30,47 @@ export default function HamburgerMenu({ isNavOpen, setIsNavOpen }) {
         </div>
 
         <div className="showMenuNav">
-          <ul className="MENU-LINKS flex flex-col gap-8 items-end justify-between min-h-[250px] tablet:mr-4 mobile:mr-0 uppercase text-48 text-black font-medium font-rubik">
+          <ul className="MENU-LINKS flex flex-col gap-8 items-end justify-between min-h-[250px] tablet:mr-4 mobile:mr-0 text-48 text-black font-medium font-rubik">
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <HashLink to="/#work" menu={content.navbar.work}></HashLink>
+              <button className="uppercase" onClick={() => scrollClick("work")}>
+                {content.navbar.work}
+              </button>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <HashLink to="/#about" menu={content.navbar.about}>{content.navbar.about}</HashLink>
+              <button
+                className="uppercase"
+                onClick={() => scrollClick("about")}
+              >
+                {content.navbar.about}
+              </button>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <HashLink to="/#experience" menu={content.navbar.experience}>{content.navbar.experience}</HashLink>
+              <button
+                className="uppercase"
+                onClick={() => scrollClick("experience")}
+              >
+                {content.navbar.experience}
+              </button>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <HashLink to="/#contact" menu={content.navbar.contact}>{content.navbar.contact}</HashLink>
+              <button
+                className="uppercase"
+                onClick={() => scrollClick("contact")}
+              >
+                {content.navbar.contact}
+              </button>
             </li>
           </ul>
         </div>
