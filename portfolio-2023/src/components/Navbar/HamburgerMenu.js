@@ -1,19 +1,24 @@
 //import {ReactComponent as RecordIcon} from '../../content/img/record-icon.svg';
 import content from "../../content/content";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function HamburgerMenu({
   isNavOpen,
   setIsNavOpen,
   scrollClick,
+  isHome
 }) {
   return (
     <div className="HAMBURGER-CONTAINER flex flex-row justify-between border-b-2 tablet:px-10 mobile:px-4 py-4">
-      <button
-        className="text-2xl text-black font-medium font-rubik"
-        onClick={() => scrollClick("landing")}
-      >
-        {content.navbar.home}
-      </button>
+      <div className="HAMBURGER-LANDING text-2xl text-black font-medium font-rubik">
+        {isHome ? (
+          <button onClick={() => scrollClick("landing")}>
+            {content.navbar.home}
+          </button>
+        ) : (
+          <Link to={`/#landing`}>{content.navbar.home}</Link>
+        )}
+      </div>
       <div className="flex items-center">
         {/* RECORD PLAYING CODE
       <div className={isRecordOn ? "RECORD-CONTAINER custom-spin mr-12" : "RECORD-CONTAINER mr-12"} onClick={() => setIsRecordOn((prev) => !prev)}>
@@ -35,42 +40,57 @@ export default function HamburgerMenu({
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <button className="uppercase" onClick={() => scrollClick("work")}>
-                {content.navbar.work}
-              </button>
+              <div className="BURGER-WORK uppercase">
+                {isHome ? (
+                  <button className="uppercase" onClick={() => scrollClick("work")}>
+                    {content.navbar.work}
+                  </button>
+                ) : (
+                  <Link to="/#work">{content.navbar.work}</Link>
+                )}
+              </div>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <button
-                className="uppercase"
-                onClick={() => scrollClick("about")}
-              >
-                {content.navbar.about}
-              </button>
+              <div className="BURGER-ABOUT uppercase">
+                {isHome ? (
+                  <button className="uppercase" onClick={() => scrollClick("about")}>
+                    {content.navbar.about}
+                  </button>
+                ) : (
+                  <Link to="/#about">{content.navbar.about}</Link>
+                )}
+              </div>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <button
-                className="uppercase"
-                onClick={() => scrollClick("experience")}
-              >
-                {content.navbar.experience}
-              </button>
+              <div className="BURGER-EXPERIENCE uppercase">
+                {isHome ? (
+                  <button className="uppercase" onClick={() => scrollClick("experience")}>
+                    {content.navbar.experience}
+                  </button>
+                ) : (
+                  <Link to="/#experience">{content.navbar.experience}</Link>
+                )}
+              </div>
             </li>
             <li
               className="hover:italic"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <button
-                className="uppercase"
-                onClick={() => scrollClick("contact")}
-              >
-                {content.navbar.contact}
-              </button>
+              <div className="BURGER-CONTACT uppercase">
+                {isHome ? (
+                  <button className="uppercase" onClick={() => scrollClick("contact")}>
+                    {content.navbar.contact}
+                  </button>
+                ) : (
+                  <Link to="/#contact">{content.navbar.contact}</Link>
+                )}
+              </div>
             </li>
           </ul>
         </div>

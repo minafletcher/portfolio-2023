@@ -1,13 +1,11 @@
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Portfolio from "./Portfolio.js";
 import "./style.css";
-import Navbar from "./components/Navbar/Navbar.js";
 
 // helper components
 import ScrollToTop from "./helpers/scrollToTop.js";
-import ScrollToHashElement from "./helpers/scrollToHashElement.js";
 
 import {
   GlobalEnergy,
@@ -34,9 +32,7 @@ root.render(
   <>
     <Router>
       <ScrollToTop />
-      <ScrollToHashElement />
 
-      <Navbar />
       <Routes>
         <Route path="/" element={<Portfolio />}></Route>
         {/* Web Development Project Routes */}
@@ -61,7 +57,7 @@ root.render(
         <Route path="work/new-york-underground" element={<NYUnderground />} />
         <Route path="work/global-energy-usage" element={<GlobalEnergy />} />
         <Route path="work/24-logos-and-typefaces" element={<LogoBook />} />
-        <Route path="*" element={<Link to="/" replace />} />
+        <Route path="*" element={<Portfolio />} />
       </Routes>
     </Router>
   </>

@@ -1,4 +1,5 @@
 import Landing from "./components/Landing/Landing.js";
+import Navbar from "./components/Navbar/Navbar.js";
 import Projects from "./components/Projects/Projects.js";
 import AboutMe from "./components/AboutMe/AboutMe.js";
 import Experience from "./components/Experience/Experience.js";
@@ -11,8 +12,10 @@ import { Outlet } from "react-router-dom";
 // shapes + animations
 // dot grids
 export default function Portfolio() {
+
   return (
     <div>
+      <Navbar isHome={true} />
       <div className="flex flex-col laptop:px-20 tablet:px-10 mobile:px-4">
         <Landing />
         <Projects />
