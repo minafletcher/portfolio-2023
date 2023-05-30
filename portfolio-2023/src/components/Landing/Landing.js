@@ -1,5 +1,4 @@
 import content from "../../content/content";
-import { HashLink } from "react-router-hash-link";
 
 // animation functionality
 import { motion, useAnimation } from "framer-motion";
@@ -7,6 +6,14 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 export default function Landing() {
+
+  function scrollClick(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   // animate in functionality
   // slide up on scroll
   const textVariant = {
@@ -65,7 +72,7 @@ export default function Landing() {
           ></img>
         </motion.div>
 
-        <HashLink smooth to="/#work">
+        <button onClick={() => scrollClick("work")}>
           <motion.img
             className="SCROLL-ARROW absolute shrink-0 custom-bounce tablet:w-8 mobile:w-6 right-0 laptop:bottom-4 mobile:-bottom-16"
             src={content.landing.arrowImg}
@@ -75,7 +82,7 @@ export default function Landing() {
             variants={scrollVariant}
             initial="hidden"
           ></motion.img>
-        </HashLink>
+        </button>
       </div>
     </div>
   );
