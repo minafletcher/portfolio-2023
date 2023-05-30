@@ -46,7 +46,7 @@ export default function ProjectPage({ project }) {
               src={projectPages.backIcon}
               alt={projectPages.backIconAlt}
             ></img>
-            <div className="BACK-TEXT mobile:mobile-body tablet:tablet-body laptop:body">
+            <div className="BACK-TEXT text-black mobile:mobile-body tablet:tablet-body laptop:body hover:text-red transition-all duration-200">
               {projectPages.backText}
             </div>
           </Link>
