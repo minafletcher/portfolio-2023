@@ -4,6 +4,7 @@ import Tag from "../components/Tag";
 import Footer from "../components/Footer/Footer";
 import ReactPlayer from "react-player";
 import { useEffect } from "react";
+import { ReactComponent as BackArrow } from "../content/img/back-arrow.svg";
 
 // animation functionality
 import { motion, useAnimation } from "framer-motion";
@@ -36,17 +37,10 @@ export default function ProjectPage({ project }) {
         variants={contentVariant}
         initial="hidden"
       >
-        <div className="LOGO-CONTAINER flex flex-col laptop:px-20 tablet:px-10 mobile:px-4">
-          <Link
-            to={`/#work`}
-            className="BACK-ARROW pt-8 flex flex-row w-fit gap-2 items-center"
-          >
-            <img
-              className="BACK-ICON w-3"
-              src={projectPages.backIcon}
-              alt={projectPages.backIconAlt}
-            ></img>
-            <div className="BACK-TEXT text-black mobile:mobile-body tablet:tablet-body laptop:body hover:text-red transition-all duration-200">
+        <div className="PROJECT-CONTAINER flex flex-col laptop:px-20 tablet:px-10 mobile:px-4">
+          <Link to={`/#work`}>
+            <div className="BACK-TEXT mobile:mobile-body tablet:tablet-body laptop:body pt-8 flex flex-row w-fit gap-2 items-center text-black fill-black hover:fill-red hover:text-red transition-all duration-200">
+              <BackArrow className="BACK-ICON w-3"></BackArrow>
               {projectPages.backText}
             </div>
           </Link>
