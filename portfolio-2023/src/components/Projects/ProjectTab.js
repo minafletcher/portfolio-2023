@@ -8,7 +8,7 @@ export default function ProjectTab({ content, tabNum, openTab, setOpenTab }) {
       }
       onClick={() => setOpenTab(tabNum)}
     >
-      <div className={openTab === tabNum ? "text-white" : "text-red"}>{content}</div>
+      <div className={openTab === tabNum ? "text-white" : "text-black hover:text-red transition-all duration-200"}>{content}</div>
     </div>
   );
 }

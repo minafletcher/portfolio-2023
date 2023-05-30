@@ -72,14 +72,14 @@ export default function ProjectTabs() {
               openTab={openTab}
               setOpenTab={setOpenTab}
             />
-            <div className="text-red bg-red tabLine"></div>
+            <div className="bg-red tabLine"></div>
             <ProjectTab
               content={content.projects.tabAnim}
               tabNum={2}
               openTab={openTab}
               setOpenTab={setOpenTab}
             />
-            <div className="text-red bg-red tabLine"></div>
+            <div className="bg-red tabLine"></div>
             <ProjectTab
               content={content.projects.tabDes}
               tabNum={3}
