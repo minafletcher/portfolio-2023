@@ -50,7 +50,7 @@ export default function Landing() {
           variants={textVariant}
           initial="hidden"
         >
-          <h1 className="LANDING-TITLE text-black laptop:heading1 tablet:tablet-heading1 mobile:mobile-heading1 uppercase">
+          <h1 className="LANDING-TITLE text-black laptop:heading1 tablet:tablet-heading1 mobile:mobile-heading1 uppercase mobile:pr-24 tablet:pr-0">
             {content.landing.name}
           </h1>
           <h2 className="LANDING-SUBTITLE text-black laptop:heading2 tablet:tablet-heading2 mobile:heading3">
