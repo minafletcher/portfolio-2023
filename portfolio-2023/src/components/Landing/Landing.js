@@ -60,7 +60,7 @@ export default function Landing() {
             {content.landing.body}
           </p>
           <button onClick={() => scrollClick("work")}>
-            <div className="LANDING-BUTTON w-fit border-2 mt-8 bg-red rounded-md border-white text-white tablet:heading2-5 mobile:mobile-heading3 uppercase py-2 px-10 hover:text-red hover:bg-white hover:border-red transition-all duration-200">
+            <div className="LANDING-BUTTON w-fit border-2 mobile:mt-6 laptop:mt-8 bg-red rounded-md border-white text-white tablet:heading2-5 mobile:mobile-heading3 uppercase py-2 px-10 hover:text-red hover:bg-white hover:border-red transition-all duration-200">
               {content.landing.button}
             </div>
           </button>
@@ -74,7 +74,7 @@ export default function Landing() {
           initial="hidden"
         >
           <img
-            className="LANDING-IMAGE laptop:mt-40 mobile:mt-14 laptop:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
+            className="LANDING-IMAGE laptop:mt-40 mobile:mt-10 tablet:mt-14 laptop:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
             src={content.landing.img}
             alt={content.landing.imgAlt}
           ></img>
