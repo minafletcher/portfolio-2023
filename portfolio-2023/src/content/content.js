@@ -6,9 +6,10 @@ import RecordSong from "../content/whats_a_girl_to_do.mp3";
 
 // ---- Landing Image Imports ---- //
 import BounceArrow from "./img/bounce-arrow.svg";
-import Circle from "./img/half-circle.svg";
-import BlackBorder from "./img/black-border.svg";
-import LandingShapes from "./img/landing-shapes.svg";
+// import Circle from "./img/half-circle.svg";
+// import BlackBorder from "./img/black-border.svg";
+// import LandingShapes from "./img/landing-shapes.svg";
+import LandingShapesNew from "./img/shapes_new.svg";
 
 // ---- Project Image Imports ---- //
 import GGThumbnail from "./img/gg-mockup-final-min.png";
@@ -90,10 +91,10 @@ const content = {
   landing: {
     name: "Mina Fletcher",
     subtitle: "Designer. Developer. Creator",
-    img: LandingShapes,
+    body: "As a front-end developer based in New York, I aspire to create interactive visual experiences and to further explore the world of creative coding. I’m currently looking for freelance or full-time roles in software engineering, animation, and computer graphics.",
+    button: "VIEW WORK",
+    img: LandingShapesNew,
     imgAlt: "fun shapes image",
-    circleImg: Circle,
-    lineImg: BlackBorder,
     arrowImg: BounceArrow,
     arrowAlt: "scroll indicator image",
   },
@@ -218,7 +219,7 @@ const content = {
     line2:
       "I’m looking to grow my skills in any exciting application of tech and A+D. This includes web development, animation, computer generated graphics and art, and all the potentials of creative coding. I love to gain and experiment with new skills, and am always looking to learn new technologies when I can.",
     line3:
-      "In and out of my work, I love to interact with people, whether as a mentor, a team member, or a friend. My personal interests include traveling, intersectional environmentalism, New York art and music history, London Fogs, and bouldering. My inspiration moodboard would consist of solarpunk, mid-century modern, and xerox art.",
+      "In and out of my work, I love to interact with people, whether as a mentor, a team member, or a friend. My personal interests include traveling, intersectional environmentalism, New York art and music history, coffee soda, and bouldering. My inspiration moodboard would consist of solarpunk, mid-century modern, and xerox art.",
     imgUrl: HeadshotGif,
     imgAlt: "Headshot gif",
     links: [
