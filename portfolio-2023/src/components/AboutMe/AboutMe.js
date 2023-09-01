@@ -39,7 +39,7 @@ export default function AboutMe() {
       variants={contentVariant}
       initial="hidden"
     >
-      <div className="ABOUT-ME-CONTAINER relative flex laptop:flex-row mobile:flex-col laptop:mt-40 mobile:mt-36 tablet:mt-44 items-center desktop:mx-20 tablet:mx-10">
+      <div className="ABOUT-ME-CONTAINER relative flex laptop:flex-row mobile:flex-col laptop:mt-40 mobile:mt-44 items-center desktop:mx-20 tablet:mx-10">
         <motion.div
           className="PROJECT-DOTS absolute -z-10 flex w-full"
           ref={ref}

@@ -45,7 +45,7 @@ export default function ProjectTabs() {
       variants={contentVariant}
       initial="hidden"
     >
-      <div className="PROJECT-CONTAINER relative flex flex-col justify-between laptop:mt-40 mobile:mt-28 tablet:mt-44 laptop:mx-20 tablet:mx-10">
+      <div className="PROJECT-CONTAINER relative flex flex-col justify-between laptop:mt-40 mobile:mt-44 laptop:mx-20 tablet:mx-10">
         <motion.div
           className="PROJECT-DOTS absolute -z-10 tablet:flex w-full justify-end mobile:hidden"
           ref={ref}
