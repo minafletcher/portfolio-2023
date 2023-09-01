@@ -40,7 +40,7 @@ export default function Experience() {
       variants={contentVariant}
       initial="hidden"
     >
-      <div className="EXPERIENCE-CONTAINER relative flex flex-col laptop:mt-40 mobile:mt-44 laptop:mx-20 tablet:mx-10">
+      <div className="EXPERIENCE-CONTAINER relative flex flex-col laptop:mt-40 mobile:mt-36 tablet:mt-44 laptop:mx-20 tablet:mx-10">
         <motion.div
           className="EXPERIENCE-DOTS absolute -z-10 flex w-full h-full items-end justify-end"
           ref={ref}

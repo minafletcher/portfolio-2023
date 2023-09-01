@@ -74,7 +74,7 @@ export default function Landing() {
           initial="hidden"
         >
           <img
-            className="LANDING-IMAGE aspect-square laptop:mt-24 mobile:mt-10 tablet:mt-14 mobile:max-w-md tablet:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
+            className="LANDING-IMAGE aspect-square laptop:mt-24 mobile:mt-6 tablet:mt-10 mobile:max-w-md tablet:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
             src={content.landing.img}
             alt={content.landing.imgAlt}
           ></img>
