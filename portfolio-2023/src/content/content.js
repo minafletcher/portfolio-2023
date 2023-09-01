@@ -9,7 +9,8 @@ import BounceArrow from "./img/bounce-arrow.svg";
 // import Circle from "./img/half-circle.svg";
 // import BlackBorder from "./img/black-border.svg";
 // import LandingShapes from "./img/landing-shapes.svg";
-import LandingShapesNew from "./img/shapes_new.svg";
+//import LandingShapesNew from "./img/shapes_new.svg";
+import LandingShapesNew from "./img/shapes_animation_final_3.gif";
 
 // ---- Project Image Imports ---- //
 import GGThumbnail from "./img/gg-mockup-final-min.png";

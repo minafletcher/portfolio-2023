@@ -42,7 +42,7 @@ export default function Landing() {
 
   return (
     <div id="landing" className="LANDING-ANCHOR -mt-16">
-      <div className="LANDING-CONTAINER relative flex laptop:flex-row mobile:flex-col justify-center laptop:mt-6 laptop:gap-20">
+      <div className="LANDING-CONTAINER relative flex laptop:flex-row mobile:flex-col laptop:mt-6 laptop:gap-20 laptop:items-center justify-between">
         <motion.div
           className="LANDING-TEXT laptop:mt-24 tablet:mt-36 mobile:mt-28"
           ref={ref}
@@ -56,7 +56,7 @@ export default function Landing() {
           <h2 className="LANDING-SUBTITLE text-black laptop:heading2 tablet:tablet-heading2 mobile:heading3">
             {content.landing.subtitle}
           </h2>
-          <p className="LANDING-BODY text-black mobile:mobile-body tablet:body tablet:max-w-xl laptop:max-w-2xl laptop:body mt-4">
+          <p className="LANDING-BODY text-black mobile:mobile-body tablet:body max-w-2xl laptop:body mt-4">
             {content.landing.body}
           </p>
           <button onClick={() => scrollClick("work")}>
@@ -67,14 +67,14 @@ export default function Landing() {
         </motion.div>
 
         <motion.div
-          className="LANDING-SHAPES flex mobile:justify-center laptop:justify-end w-full"
+          className="LANDING-SHAPES mobile:flex mobile:justify-center laptop:block"
           ref={ref}
           animate={control}
           variants={imgVariant}
           initial="hidden"
         >
           <img
-            className="LANDING-IMAGE laptop:mt-40 mobile:mt-10 tablet:mt-14 laptop:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
+            className="LANDING-IMAGE aspect-square laptop:mt-24 mobile:mt-10 tablet:mt-14 mobile:max-w-md tablet:max-w-lg laptop:w-full tablet:w-8/12 mobile:w-10/12"
             src={content.landing.img}
             alt={content.landing.imgAlt}
           ></img>
