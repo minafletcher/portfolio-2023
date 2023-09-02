@@ -304,7 +304,7 @@ const content = {
           },
           {
             key: 3,
-            text: "Designing specialized lesson plans for individual and group sessions",
+            text: "Designing specialized lesson plans for individual and group sessions to target students' goals and track progress over time",
           },
         ],
       },
