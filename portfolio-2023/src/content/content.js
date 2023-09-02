@@ -65,6 +65,7 @@ import BlenderIcon from "./img/blender-icon.svg";
 import ClipStudioIcon from "./img/clip-studio.svg";
 import AfterEffectsIcon from "./img/after-effects-icon.svg";
 import PremierIcon from "./img/premier-pro.svg";
+import ProcessingIcon from "./img/processing-icon.svg";
 
 // ---- Skills Design ---- //
 import FigmaIcon from "./img/figma-icon.svg";
@@ -263,6 +264,52 @@ const content = {
     experienceBlocks: [
       {
         key: 1,
+        jobTitle: "Program Assistant",
+        company: "Northeastern University",
+        location: "Vienna, Austria",
+        date: "July - Aug 2023",
+        linkText: "ars.electronica.art",
+        linkUrl: "https://ars.electronica.art/futurelab/en/projects-northeastern-university/",
+        bullets: [
+          {
+            key: 1,
+            text: "Assisting students and faculty on the Textiles & Coding Dialogue of Civilizations to Austria and workshop with Ars Electronica Futurelab",
+          },
+          {
+            key: 2,
+            text: "Supporting students on weekly creative coding projects, and developing animations and interactive experiences on the Ars Electronica facade",
+          },
+          {
+            key: 3,
+            text: "Hosting regular office hours and working sessions to assist students in learning Processing, code problem solving and project ideation",
+          },
+        ],
+      },
+      {
+        key: 2,
+        jobTitle: "Code Coach",
+        company: "The Coder School",
+        location: "Montclair, NJ",
+        date: "Feb - June 2023",
+        linkText: "thecoderschool.com",
+        linkUrl: "https://www.thecoderschool.com/locations/montclair/",
+        bullets: [
+          {
+            key: 1,
+            text: "Teaching students ages 7-16 how to code and understand fundamental coding concepts in Scratch, Java, Python, HTML, CSS, and JavaScript",
+          },
+          {
+            key: 2,
+            text: "Advancing students’ abilities to code in a written language through exercises, quizzes, and building games and command-line applications",
+          },
+          {
+            key: 3,
+            text: "Designing specialized lesson plans for individual and group sessions",
+          },
+        ],
+      },
+      {
+        key: 3,
         jobTitle: "Tech Director",
         company: "Scout",
         location: "Boston, MA",
@@ -285,7 +332,7 @@ const content = {
         ],
       },
       {
-        key: 2,
+        key: 4,
         jobTitle: "Frontend Developer",
         company: "Blueport Commerce",
         location: "Boston, MA",
@@ -308,7 +355,7 @@ const content = {
         ],
       },
       {
-        key: 3,
+        key: 5,
         jobTitle: "Developer",
         company: "Scout Conference",
         location: "Boston, MA",
@@ -327,7 +374,7 @@ const content = {
         ],
       },
       {
-        key: 4,
+        key: 6,
         jobTitle: "Software Engineer",
         company: "CoolGreenPower",
         location: "Boston, MA",
@@ -350,7 +397,7 @@ const content = {
         ],
       },
       {
-        key: 5,
+        key: 7,
         jobTitle: "Digital & Graphics Specialist",
         company: "Marsh & McLennan",
         location: "New York, NY",
@@ -464,42 +511,48 @@ const content = {
         items: [
           {
             key: 1,
-            text: "Three.js",
-            imgUrl: ThreeJsIcon,
-            imgAlt: "Three.js Icon",
-          },
-          {
-            key: 2,
             text: "C++",
             imgUrl: CPlusIcon,
             imgAlt: "C++ Icon",
           },
           {
-            key: 3,
+            key: 2,
             text: "Maya",
             imgUrl: MayaIcon,
             imgAlt: "Maya Icon",
           },
           {
-            key: 4,
-            text: "Blender",
-            imgUrl: BlenderIcon,
-            imgAlt: "Blender Icon",
-          },
-          {
-            key: 5,
-            text: "Clip Studio Paint",
-            imgUrl: ClipStudioIcon,
-            imgAlt: "Clip Studio Paint Icon",
-          },
-          {
-            key: 6,
+            key: 3,
             text: "After Effects",
             imgUrl: AfterEffectsIcon,
             imgAlt: "After Effects Icon",
           },
           {
+            key: 4,
+            text: "Processing",
+            imgUrl: ProcessingIcon,
+            imgAlt: "Processing Icon",
+          },
+          {
+            key: 5,
+            text: "Three.js",
+            imgUrl: ThreeJsIcon,
+            imgAlt: "Three.js Icon",
+          },
+          {
+            key: 6,
+            text: "Blender",
+            imgUrl: BlenderIcon,
+            imgAlt: "Blender Icon",
+          },
+          {
             key: 7,
+            text: "Clip Studio Paint",
+            imgUrl: ClipStudioIcon,
+            imgAlt: "Clip Studio Paint Icon",
+          },
+          {
+            key: 8,
             text: "Premier Pro",
             imgUrl: PremierIcon,
             imgAlt: "Premier Pro Icon",

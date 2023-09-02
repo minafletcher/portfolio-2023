@@ -3,7 +3,7 @@ import content from "../../content/content";
 import { Link } from "react-router-dom";
 
 export default function Dropdown({ block }) {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(block.key === 1 ? true : false);
 
   return (
     <div className="DROPDOWN-CONTENT flex flex-col drop-shadow-md py-3 px-4 bg-white rounded-lg dropdownHover">
