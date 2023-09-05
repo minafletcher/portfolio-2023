@@ -36,7 +36,7 @@ export default function Footer() {
         <div className="FOOTER-TITLE text-white laptop:heading2 tablet:tablet-heading2 mobile:heading2-5">
           {content.footer.title}
         </div>
-        <Link to={content.aboutMe.links[3].linkUrl}>
+        <Link to={content.aboutMe.links[3].linkUrl} className="w-fit">
           <div className="FOOTER-BUTTON w-fit border-2 rounded-md border-white text-white tablet:heading2-5 mobile:mobile-heading3 uppercase py-2 px-10 hover:text-red hover:bg-white transition-all duration-200">
             {content.footer.button}
           </div>
