@@ -50,7 +50,9 @@ import ReactIcon from "./img/react-icon.svg";
 import JSIcon from "./img/js-ts-icon.svg";
 import TSIcon from "./img/typescript-icon.svg";
 import HTMLIcon from "./img/html-icon.svg";
-import CSS_SASS_Icon from "./img/css-sass-icon.svg";
+import CSSIcon from "./img/css-sass-icon.svg";
+import SassIcon from "./img/sass-icon.svg";
+import TailwindIcon from "./img/tailwind-icon.svg";
 import AngularIcon from "./img/angular-icon.svg";
 import GitIcon from "./img/git-icon.svg";
 import GatsbyIcon from "./img/gatsby-icon.svg";
@@ -443,60 +445,72 @@ const content = {
           },
           {
             key: 2,
-            text: "Javascript",
-            imgUrl: JSIcon,
-            imgAlt: "Javascript Icon",
-          },
-          {
-            key: 3,
-            text: "Typescript",
-            imgUrl: TSIcon,
-            imgAlt: "Typescript Icon",
-          },
-          {
-            key: 4,
-            text: "HTML",
-            imgUrl: HTMLIcon,
-            imgAlt: "HTML Icon",
-          },
-          {
-            key: 5,
-            text: "CSS/SASS",
-            imgUrl: CSS_SASS_Icon,
-            imgAlt: "CSS/SASS Icon",
-          },
-          {
-            key: 6,
             text: "Angular",
             imgUrl: AngularIcon,
             imgAlt: "Angular Icon",
           },
           {
+            key: 3,
+            text: "Javascript",
+            imgUrl: JSIcon,
+            imgAlt: "Javascript Icon",
+          },
+          {
+            key: 4,
+            text: "Typescript",
+            imgUrl: TSIcon,
+            imgAlt: "Typescript Icon",
+          },
+          {
+            key: 5,
+            text: "HTML",
+            imgUrl: HTMLIcon,
+            imgAlt: "HTML Icon",
+          },
+          {
+            key: 6,
+            text: "CSS",
+            imgUrl: CSSIcon,
+            imgAlt: "CSS Icon",
+          },
+          {
             key: 7,
+            text: "Tailwind",
+            imgUrl: TailwindIcon,
+            imgAlt: "Tailwind Icon",
+          },
+          {
+            key: 8,
+            text: "SASS",
+            imgUrl: SassIcon,
+            imgAlt: "Sass Icon",
+          },
+          {
+            key: 9,
             text: "Git",
             imgUrl: GitIcon,
             imgAlt: "Git Icon",
           },
           {
-            key: 8,
+            key: 10,
             text: "Gatsby",
             imgUrl: GatsbyIcon,
             imgAlt: "Gatsby Icon",
           },
           {
-            key: 9,
+            key: 11,
             text: "Prismic",
             imgUrl: PrismicIcon,
             imgAlt: "Prismic Icon",
           },
           {
-            key: 10,
+            key: 12,
             text: "Squarespace",
             imgUrl: SquarespaceIcon,
             imgAlt: "Squarespace Icon",
           },
           {
-            key: 11,
+            key: 13,
             text: "Wix",
             imgUrl: WixIcon,
             imgAlt: "Wix Icon",
