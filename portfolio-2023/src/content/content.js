@@ -47,7 +47,8 @@ import ExternalLink from "./img/external-link-icon.svg";
 // ---- Skills Image Import ---- //
 // ---- Skills Web Development ---- //
 import ReactIcon from "./img/react-icon.svg";
-import JS_TS_Icon from "./img/js-ts-icon.svg";
+import JSIcon from "./img/js-ts-icon.svg";
+import TSIcon from "./img/typescript-icon.svg";
 import HTMLIcon from "./img/html-icon.svg";
 import CSS_SASS_Icon from "./img/css-sass-icon.svg";
 import AngularIcon from "./img/angular-icon.svg";
@@ -442,54 +443,60 @@ const content = {
           },
           {
             key: 2,
-            text: "JS/TS",
-            imgUrl: JS_TS_Icon,
-            imgAlt: "Javascript/Typescript Icon",
+            text: "Javascript",
+            imgUrl: JSIcon,
+            imgAlt: "Javascript Icon",
           },
           {
             key: 3,
+            text: "Typescript",
+            imgUrl: TSIcon,
+            imgAlt: "Typescript Icon",
+          },
+          {
+            key: 4,
             text: "HTML",
             imgUrl: HTMLIcon,
             imgAlt: "HTML Icon",
           },
           {
-            key: 4,
+            key: 5,
             text: "CSS/SASS",
             imgUrl: CSS_SASS_Icon,
             imgAlt: "CSS/SASS Icon",
           },
           {
-            key: 5,
+            key: 6,
             text: "Angular",
             imgUrl: AngularIcon,
             imgAlt: "Angular Icon",
           },
           {
-            key: 6,
+            key: 7,
             text: "Git",
             imgUrl: GitIcon,
             imgAlt: "Git Icon",
           },
           {
-            key: 7,
+            key: 8,
             text: "Gatsby",
             imgUrl: GatsbyIcon,
             imgAlt: "Gatsby Icon",
           },
           {
-            key: 8,
+            key: 9,
             text: "Prismic",
             imgUrl: PrismicIcon,
             imgAlt: "Prismic Icon",
           },
           {
-            key: 9,
+            key: 10,
             text: "Squarespace",
             imgUrl: SquarespaceIcon,
             imgAlt: "Squarespace Icon",
           },
           {
-            key: 10,
+            key: 11,
             text: "Wix",
             imgUrl: WixIcon,
             imgAlt: "Wix Icon",
