@@ -72,7 +72,7 @@
     }
 
     .small-heading {
-        @apply text-14 leading-snug font-medium font-rubik;
+        @apply text-16 leading-snug font-medium font-rubik;
     }
 }
 

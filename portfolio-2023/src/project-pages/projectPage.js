@@ -46,26 +46,29 @@ export default function ProjectPage({ project }) {
           </Link>
 
           <div
-            className={
-              project.imgFullWidth
-                ? "PROJECT-HEADER flex flex-col tablet:pt-10 mobile:pt-8 tablet:gap-16 mobile:gap-10"
-                : "PROJECT-HEADER flex laptop:flex-row mobile:flex-col tablet:pt-10 mobile:pt-8 tablet:gap-16 mobile:gap-10"
-            }
+            className="PROJECT-HEADER flex flex-col tablet:pt-10 mobile:pt-8 tablet:gap-16 mobile:gap-10"
           >
             <div className="PROJECT-INFO w-full flex flex-col tablet:gap-6 mobile:gap-4">
-              <div className="TITLE-YEAR flex flex-col gap-2">
                 <div className="TITLE laptop:heading2 tablet:tablet-heading2 mobile:mobile-heading2 text-black">
                   {project.title}
                 </div>
-                <div className="YEAR body text-black">{project.year}</div>
-              </div>
-              <div className="DESCRIPTION laptop:body tablet:tablet-body mobile:mobile-body text-black max-w-lg">
+              <div className="DESCRIPTION laptop:body tablet:tablet-body mobile:mobile-body text-black">
                 {project.description}
               </div>
               <div className="TAGS flex flex-row mobile:gap-2 tablet:gap-3">
                 {project.tags.map((tag) => {
                   return <Tag key={tag.key} size={1} content={tag.tag} />;
                 })}
+              </div>
+              <div className="TOOLS-TIME-BUTTON flex tablet:flex-row mobile:flex-col tablet:items-center tablet:gap-16 mobile:gap-8">
+                <div className="TOOLS-TIME-CONTAINER flex flex-row gap-16">
+                <div className="TIMELINE-CONTAINER flex flex-col gap-2">
+                <div className="TIME-TITLE small-heading text-black">
+                  {projectPages.timelineText}
+                </div>
+                <div className="TIME-TEXT sub-body text-black">
+                  {project.year}
+                </div>
               </div>
               <div className="TOOLS-CONTAINER flex flex-col gap-2">
                 <div className="TOOLS-TEXT small-heading text-black">
@@ -84,6 +87,7 @@ export default function ProjectPage({ project }) {
                   })}
                 </div>
               </div>
+              </div>
               {project.buttons ? (
                 <div className="BUTTONS flex flex-row flex-wrap gap-4">
                   {project.buttons.map((button) => {
@@ -93,7 +97,7 @@ export default function ProjectPage({ project }) {
                         to={button.buttonLink}
                         target="_blank"
                       >
-                        <div className="VIEW-BUTTON flex flex-col items-center w-fit uppercase tablet:heading3 mobile:mobile-heading3 cursor-pointer rounded-md border-red border-2 px-4 tablet:py-2 mobile:py-1 text-red hover:text-white hover:bg-red transition-all duration-200">
+                        <div className="VIEW-BUTTON flex flex-col items-center w-fit uppercase tablet:heading3 mobile:mobile-heading3 cursor-pointer rounded-md bg-red text-white border-2 border-red px-4 tablet:py-2 mobile:py-1 hover:text-red hover:bg-white transition-all duration-200">
                           {button.buttonText}
                         </div>
                       </Link>
@@ -103,10 +107,11 @@ export default function ProjectPage({ project }) {
               ) : (
                 ""
               )}
+              </div>
             </div>
 
             {project.videoLink ? (
-              <div className="VIDEO-PLAYER flex flex-col w-full mobile:h-72 tablet:h-96 drop-shadow-md">
+              <div className="VIDEO-PLAYER flex flex-col aspect-video drop-shadow-md">
                 <ReactPlayer
                   url={project.videoLink}
                   controls={true}
@@ -115,7 +120,7 @@ export default function ProjectPage({ project }) {
                 ></ReactPlayer>
               </div>
             ) : (
-              <div className="COVER-IMAGES flex tablet:flex-row mobile:flex-col w-full gap-8">
+              <div className="COVER-IMAGES flex flex-col gap-8 items-center">
                 {project.coverImages.map((image) => {
                   return (
                     <div className="COVER-IMAGE">

@@ -75,6 +75,7 @@ import GoGarden6 from "./img/project-pages/gogarden-6-min.png";
 
 const projectPages = {
   toolsText: "Tools Used",
+  timelineText: "Timeline",
   backIcon: BackIcon,
   backIconAlt: "Back Arrow Icon",
   backText: "My Projects",
@@ -89,7 +90,7 @@ const projectPages = {
       },
     ],
     title: "24 Logos and Typefaces",
-    year: "2019",
+    year: "Sept - Dec 2019",
     description:
       "A typography book including 24 characters designed from existing typefaces, using form and color with a yarn medium to determine mood of each character",
     tags: [
@@ -170,7 +171,7 @@ const projectPages = {
       },
     ],
     title: "Global Energy Usage",
-    year: "2020",
+    year: "Nov 2020",
     description:
       "An infographic comparing global energy usage in the year 1900 and 2019, and highlighting disparities in usage between countries and energy sources",
     tags: [
@@ -228,7 +229,7 @@ const projectPages = {
       },
     ],
     title: "The New York Underground",
-    year: "2021",
+    year: "Sept - Dec 2021",
     description:
       "A semester-long project investigating the influences, collaborations and associations of iconic artists with New York's underground scene",
     tags: [
@@ -343,7 +344,7 @@ const projectPages = {
     ],
     imgFullWidth: true,
     title: "Make The Switch Campaign",
-    year: "2022",
+    year: "Sept - Dec 2022",
     description:
       "A poster series advertising MakeTheSwitch, a campaign encouraging people and businesses to switch investment from fossil fuels to renewable energy.",
     tags: [
@@ -414,7 +415,7 @@ const projectPages = {
   claymationMusic: {
     videoLink: "https://youtu.be/2YxNpnNR71Q",
     title: "Claymation Music Video",
-    year: "2020",
+    year: "Oct 2020",
     description:
       "A stop-motion video using different materials and textures to visually depict the sounds of an audio file",
     tags: [
@@ -463,7 +464,7 @@ const projectPages = {
   personalLogo: {
     videoLink: "https://youtu.be/8V9r0kShsRk",
     title: "Personal Logo",
-    year: "2020",
+    year: "Dec 2020",
     description:
       "A short animation playing on the energy and character of a personal logo design",
     tags: [
@@ -528,7 +529,7 @@ const projectPages = {
   princessSack: {
     videoLink: "https://youtu.be/X60ais9aOA8",
     title: "Princess Floursack",
-    year: "2021",
+    year: "Sept 2021",
     description:
       "A short in which Princess Floursack finds a crown on the ground, but its fit is rather disappointing.",
     tags: [
@@ -607,7 +608,7 @@ const projectPages = {
   spaceJunk: {
     videoLink: "https://youtu.be/vfF1_uwX1x4",
     title: "Space Junk",
-    year: "2021",
+    year: "Oct - Nov 2021",
     description:
       "An educational entertainment video made as a group project to Natalie Panek's 'Let's Clean Up the Space Junk Orbiting Earth'",
     tags: [
@@ -700,7 +701,7 @@ const projectPages = {
   ghostTalent: {
     videoLink: "https://youtu.be/CNPWdgauX-8",
     title: "Ghost Talent Show",
-    year: "2021",
+    year: "Nov - Dec 2021",
     description:
       "A short where a ghost shows off his flying skills at a talent show",
     tags: [
@@ -783,7 +784,7 @@ const projectPages = {
   slanted: {
     videoLink: "https://youtu.be/vq6R4RU5xK0",
     title: "Slanted",
-    year: "2022",
+    year: "Sept - Dec 2022",
     description:
       "A short film about a curious boy that gets into more trouble than he expects in a modern art gallery",
     tags: [
@@ -910,7 +911,7 @@ const projectPages = {
       },
     ],
     title: "Clean Kick",
-    year: "2020",
+    year: "May - July 2020",
     description:
       "An online community discussing managing sustainable habits and intersectional environmentalism as a college student",
     tags: [
@@ -979,7 +980,7 @@ const projectPages = {
       },
     ],
     title: "Benvenuti Gelato",
-    year: "2020",
+    year: "Jun - July 2020",
     description:
       " A marketing website for Montclair's authentic Italian gelato shop, offering the store's menu, information and story",
     tags: [
@@ -1037,7 +1038,7 @@ const projectPages = {
       },
     ],
     title: "TheraPro",
-    year: "2021",
+    year: "Sept - Dec 2021",
     description:
       "An all-in-one therapy platform for users to search for therapists, book appointments, and message experts",
     tags: [
@@ -1157,7 +1158,7 @@ const projectPages = {
       },
     ],
     title: "CoolGreenPower",
-    year: "2021",
+    year: "Jan - May 2021",
     description:
       "A responsive marketing website and built-in tool for HVAC contractors to estimate projected savings",
     tags: [
@@ -1231,7 +1232,7 @@ const projectPages = {
       },
     ],
     title: "Interventions: Amplify",
-    year: "2022",
+    year: "Jan - Apr 2022",
     description:
       "A responsive website for Interventions: Amplify 2022, the annual design conference hosted by Scout",
     tags: [
@@ -1325,7 +1326,7 @@ const projectPages = {
       },
     ],
     title: "GoGarden",
-    year: "2022",
+    year: "Sept - Dec 2022",
     description:
       " A mobile application for community garden members and visitors to learn about and track plant care",
     tags: [
