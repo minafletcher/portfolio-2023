@@ -115,7 +115,7 @@ export default function ProjectPage({ project }) {
                 ></ReactPlayer>
               </div>
             ) : (
-              <div className="COVER-IMAGES flex tablet:flex-row mobile:flex-col w-full drop-shadow-md gap-8">
+              <div className="COVER-IMAGES flex tablet:flex-row mobile:flex-col w-full gap-8">
                 {project.coverImages.map((image) => {
                   return (
                     <div className="COVER-IMAGE">
@@ -162,7 +162,7 @@ export default function ProjectPage({ project }) {
                   <img
                     className={
                       content.img
-                        ? "SECTION-IMAGE drop-shadow-md mobile:pt-16 laptop:pt-24"
+                        ? "SECTION-IMAGE mobile:pt-16 laptop:pt-24"
                         : ""
                     }
                     src={content.img}
