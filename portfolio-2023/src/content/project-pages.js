@@ -30,8 +30,7 @@ import NY2 from "./img/project-pages/new-york-2-min.png";
 import NY3 from "./img/project-pages/new-york-3-min.png";
 import NY4 from "./img/project-pages/new-york-4-min.png";
 import NY5 from "./img/project-pages/new-york-5-min.png";
-import Switch0_1 from "./img/project-pages/make-switch-0-1-min.png";
-import Switch0_2 from "./img/project-pages/make-switch-0-2-min.png";
+import Switch0 from "./img/project-pages/make-switch-0-min.png";
 
 // ---- Animation Projects ---- //
 import PersonalLogo1 from "./img/project-pages/personal-logo-1-min.png";
@@ -333,12 +332,7 @@ const projectPages = {
     coverImages: [
       {
         key: 1,
-        img: Switch0_1,
-        imgAlt: "Make the Switch Cover Photo",
-      },
-      {
-        key: 2,
-        img: Switch0_2,
+        img: Switch0,
         imgAlt: "Make the Switch Cover Photo",
       },
     ],
