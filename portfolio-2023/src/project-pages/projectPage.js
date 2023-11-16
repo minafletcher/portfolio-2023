@@ -39,16 +39,16 @@ export default function ProjectPage({ project }) {
       >
         <div className="PROJECT-CONTAINER flex flex-col laptop:px-20 tablet:px-10 mobile:px-4">
           <Link to={`/#work`}>
-            <div className="BACK-TEXT mobile:mobile-body tablet:tablet-body laptop:body pt-8 flex flex-row w-fit gap-2 items-center text-black fill-black hover:fill-red hover:text-red transition-all duration-200">
+            <div className="BACK-TEXT mobile:mobile-body tablet:tablet-body laptop:body pt-4 flex flex-row w-fit gap-2 items-center text-black fill-black hover:fill-red hover:text-red transition-all duration-200">
               <BackArrow className="BACK-ICON w-3"></BackArrow>
               {projectPages.backText}
             </div>
           </Link>
 
           <div
-            className="PROJECT-HEADER flex flex-col tablet:pt-10 mobile:pt-8 tablet:gap-16 mobile:gap-10"
+            className="PROJECT-HEADER flex flex-col tablet:pt-10 mobile:pt-8 tablet:gap-10 mobile:gap-8"
           >
-            <div className="PROJECT-INFO w-full flex flex-col tablet:gap-6 mobile:gap-4">
+            <div className="PROJECT-INFO w-full flex flex-col gap-4">
                 <div className="TITLE laptop:heading2 tablet:tablet-heading2 mobile:mobile-heading2 text-black">
                   {project.title}
                 </div>
@@ -60,8 +60,8 @@ export default function ProjectPage({ project }) {
                   return <Tag key={tag.key} size={1} content={tag.tag} />;
                 })}
               </div>
-              <div className="TOOLS-TIME-BUTTON flex tablet:flex-row mobile:flex-col tablet:items-center tablet:gap-16 mobile:gap-8">
-                <div className="TOOLS-TIME-CONTAINER flex flex-row gap-16">
+              <div className="TOOLS-TIME-BUTTON flex tablet:flex-row mobile:flex-col tablet:items-center tablet:gap-12 mobile:gap-4">
+                <div className="TOOLS-TIME-CONTAINER flex flex-row tablet:gap-12 mobile:gap-8">
                 <div className="TIMELINE-CONTAINER flex flex-col gap-2">
                 <div className="TIME-TITLE small-heading text-black">
                   {projectPages.timelineText}
