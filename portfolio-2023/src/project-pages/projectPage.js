@@ -60,7 +60,7 @@ export default function ProjectPage({ project }) {
                   return <Tag key={tag.key} size={1} content={tag.tag} />;
                 })}
               </div>
-              <div className="TOOLS-TIME-BUTTON flex tablet:flex-row mobile:flex-col tablet:items-center tablet:gap-12 mobile:gap-4">
+              <div className="TOOLS-TIME-BUTTON flex tablet:flex-row mobile:flex-col tablet:items-center tablet:gap-12 mobile:gap-6">
                 <div className="TOOLS-TIME-CONTAINER flex flex-row tablet:gap-12 mobile:gap-8">
                 <div className="TIMELINE-CONTAINER flex flex-col gap-2">
                 <div className="TIME-TITLE small-heading text-black">
