@@ -265,8 +265,52 @@ const content = {
     externalLinkSvg: ExternalLink,
     externalLinkAlt: "External link icon",
     experienceBlocks: [
+      {        key: 1,
+        jobTitle: "Code Coordinator",
+        company: "The Coder School",
+        location: "Montclair NJ, Tribeca NYC",
+        date: "Feb 2023 - Present",
+        linkText: "thecoderschool.coom",
+        linkUrl: "https://www.thecoderschool.com/",
+        bullets: [
+          {
+            key: 1,
+            text: "Assisting in the management of daily operations, greeting visitors and meeting demands of class and schedule-based inquiries.",
+          },
+          {
+            key: 2,
+            text: "Designing child-focused STEM-based curriculum in Scratch, Python, HTML/CSS/JS, for both on-site tutoring and lessons at local schools.",
+          },
+          {
+            key: 3,
+            text: "Researching and implementing initiatives to improve and expand the school’s academic programs and outreach.",
+          },
+        ],
+      },
+      { key: 2,
+        jobTitle: "Technical Assembly",
+        company: "Beat The Bomb",
+        location: "Brooklyn, NY",
+        date: "Jun 2022 - Present",
+        linkText: "beatthebomb.coom",
+        linkUrl: "https://beatthebomb.com/brooklyn",
+        bullets: [
+          {
+            key: 1,
+            text: "Soldering and building custom parts for all locations of Beat The Bomb game spaces, including RFID scanners, lasers and laser rails.",
+          },
+          {
+            key: 2,
+            text: "Assisting in on-site installation and design of installation procedure to optimize energy usage and error prevention.",
+          },
+          {
+            key: 3,
+            text: "Researching modern gaming experiences for kids and curating STEM-based educational workshops at Beat The Bomb.",
+          },
+        ],
+      },
       {
-        key: 1,
+        key: 3,
         jobTitle: "Program Assistant",
         company: "Northeastern University",
         location: "Vienna, Austria",
@@ -289,30 +333,7 @@ const content = {
         ],
       },
       {
-        key: 2,
-        jobTitle: "Code Coach",
-        company: "The Coder School",
-        location: "Montclair, NJ",
-        date: "Feb - June 2023",
-        linkText: "thecoderschool.com",
-        linkUrl: "https://www.thecoderschool.com/locations/montclair/",
-        bullets: [
-          {
-            key: 1,
-            text: "Teaching students ages 7-16 how to code and understand fundamental coding concepts in Scratch, Java, Python, HTML, CSS, and JavaScript",
-          },
-          {
-            key: 2,
-            text: "Advancing students’ abilities to code in a written language through exercises, quizzes, and building games and command-line applications",
-          },
-          {
-            key: 3,
-            text: "Designing specialized lesson plans for individual and group sessions to target students' goals and track progress over time",
-          },
-        ],
-      },
-      {
-        key: 3,
+        key: 4,
         jobTitle: "Tech Director",
         company: "Scout",
         location: "Boston, MA",
@@ -335,7 +356,7 @@ const content = {
         ],
       },
       {
-        key: 4,
+        key: 5,
         jobTitle: "Frontend Developer",
         company: "Blueport Commerce",
         location: "Boston, MA",
@@ -354,71 +375,6 @@ const content = {
           {
             key: 3,
             text: "Collaborating with other co-ops to improve UI and manage bug fixes on the client-facing hub",
-          },
-        ],
-      },
-      {
-        key: 5,
-        jobTitle: "Developer",
-        company: "Scout Conference",
-        location: "Boston, MA",
-        date: "Sept 2021 - April 2022",
-        linkText: "interventions.design",
-        linkUrl: "https://interventions.design/",
-        bullets: [
-          {
-            key: 1,
-            text: "Working on a student-led team to build the conference’s outward facing website using React, Gatsby and Prismic",
-          },
-          {
-            key: 2,
-            text: "Implementing designs to build a clean and easy to maintain site that is fully responsive on all devices",
-          },
-        ],
-      },
-      {
-        key: 6,
-        jobTitle: "Software Engineer",
-        company: "CoolGreenPower",
-        location: "Boston, MA",
-        date: "Jan - May 2021",
-        linkText: "coolgreenpower.com",
-        linkUrl: "https://www.coolgreenpower.com/",
-        bullets: [
-          {
-            key: 1,
-            text: "Redesigning the company website in Squarespace, utilizing Javascript plug-ins to improve content organization and user experience",
-          },
-          {
-            key: 2,
-            text: "Developing, designing, and deploying a platform for clients to view and interact with data and updates regarding their installations",
-          },
-          {
-            key: 3,
-            text: "Updating the company’s branding through logo redesign, fonts,color palettes and icon usage",
-          },
-        ],
-      },
-      {
-        key: 7,
-        jobTitle: "Digital & Graphics Specialist",
-        company: "Marsh & McLennan",
-        location: "New York, NY",
-        date: "Jan - July 2020",
-        linkText: "marshmclennan.com",
-        linkUrl: "https://www.marshmclennan.com/",
-        bullets: [
-          {
-            key: 1,
-            text: "Managing content, quality control and functionality of Marsh & McLennan’s global intranet",
-          },
-          {
-            key: 2,
-            text: "Coordinating, editing, and monitoring the production and posting of web content for company initiatives and projects",
-          },
-          {
-            key: 3,
-            text: "Designing web pages and layout, optimizing graphics and visuals in accordance with company guidelines",
           },
         ],
       },

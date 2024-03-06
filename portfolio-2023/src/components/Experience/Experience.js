@@ -34,13 +34,13 @@ export default function Experience() {
   return (
     <motion.div
       id="experience"
-      className="flex flex-row items-center laptop:mt-16"
+      className="flex flex-row items-center justify-center laptop:mt-16"
       ref={ref}
       animate={control}
       variants={contentVariant}
       initial="hidden"
     >
-      <div className="EXPERIENCE-CONTAINER relative flex flex-col laptop:mt-40 mobile:mt-44 laptop:mx-20 tablet:mx-10">
+      <div className="EXPERIENCE-CONTAINER relative flex flex-col desktop:w-full laptop:mt-40 mobile:mt-44 tablet:mx-10 desktop:mx-20">
         <motion.div
           className="EXPERIENCE-DOTS absolute -z-10 flex w-full h-full items-end justify-end"
           ref={ref}
