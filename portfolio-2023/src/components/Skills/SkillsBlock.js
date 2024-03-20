@@ -3,7 +3,7 @@ import Tag from "../Tag";
 export default function SkillsBlock({ block }) {
   return (
     <div className="SKILLS-CONTENT flex laptop:flex-row mobile:flex-col drop-shadow-md py-3 px-4 bg-white rounded-lg">
-      <div className="SKILLS-HEADER flex h-8 laptop:basis-1/4">
+      <div className="SKILLS-HEADER flex mobile:h-8 laptop:h-full laptop:basis-1/4">
         <div className="SKILLS-TAGS flex mobile:flex-row laptop:flex-col gap-2 items-start">
           {block.titles.map((title) => {
             return <Tag size={2} content={title.title} />;
