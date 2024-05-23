@@ -49,6 +49,7 @@ import ExternalLink from "./img/external-link-icon.svg";
 import ReactIcon from "./img/react-icon.svg";
 import JSIcon from "./img/js-ts-icon.svg";
 import TSIcon from "./img/typescript-icon.svg";
+import WebflowIcon from "./img/icons8-webflow.svg";
 import HTMLIcon from "./img/html-icon.svg";
 import CSSIcon from "./img/css-sass-icon.svg";
 import SassIcon from "./img/sass-icon.svg";
@@ -58,7 +59,6 @@ import GitIcon from "./img/git-icon.svg";
 import GatsbyIcon from "./img/gatsby-icon.svg";
 import SquarespaceIcon from "./img/squarespace-icon.svg";
 import PrismicIcon from "./img/prismic-icon.svg";
-import WixIcon from "./img/wix-icon.svg";
 
 // ---- Skills Computer Graphics / Animation ---- //
 import ThreeJsIcon from "./img/threejs-icon.svg";
@@ -419,57 +419,57 @@ const content = {
           },
           {
             key: 5,
+            text: "Webflow",
+            imgUrl: WebflowIcon,
+            imgAlt: "Webflow Icon",
+          },
+          {
+            key: 6,
             text: "HTML",
             imgUrl: HTMLIcon,
             imgAlt: "HTML Icon",
           },
           {
-            key: 6,
+            key: 7,
             text: "CSS",
             imgUrl: CSSIcon,
             imgAlt: "CSS Icon",
           },
           {
-            key: 7,
+            key: 8,
             text: "Tailwind",
             imgUrl: TailwindIcon,
             imgAlt: "Tailwind Icon",
           },
           {
-            key: 8,
+            key: 9,
             text: "SASS",
             imgUrl: SassIcon,
             imgAlt: "Sass Icon",
           },
           {
-            key: 9,
+            key: 10,
             text: "Git",
             imgUrl: GitIcon,
             imgAlt: "Git Icon",
           },
           {
-            key: 10,
+            key: 11,
             text: "Gatsby",
             imgUrl: GatsbyIcon,
             imgAlt: "Gatsby Icon",
           },
           {
-            key: 11,
+            key: 12,
             text: "Prismic",
             imgUrl: PrismicIcon,
             imgAlt: "Prismic Icon",
           },
           {
-            key: 12,
+            key: 13,
             text: "Squarespace",
             imgUrl: SquarespaceIcon,
             imgAlt: "Squarespace Icon",
-          },
-          {
-            key: 13,
-            text: "Wix",
-            imgUrl: WixIcon,
-            imgAlt: "Wix Icon",
           },
         ],
       },
